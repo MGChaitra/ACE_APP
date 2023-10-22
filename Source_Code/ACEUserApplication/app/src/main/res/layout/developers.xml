@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/titleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developers"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0631B5"/>
+
+        <TextView
+            android:id="@+id/chaitra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chaitra MG"
+            android:textColor="#0631B5"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/shilpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shilpa Patil"
+                android:gravity="center"
+                android:layout_margin="10sp"
+                android:textSize="20sp"
+                android:textColor="#0631B5"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ayesha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayesha M"
+                android:gravity="center"
+                android:layout_margin="10sp"
+                android:textSize="20sp"
+                android:textColor="#0631B5"
+                android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+

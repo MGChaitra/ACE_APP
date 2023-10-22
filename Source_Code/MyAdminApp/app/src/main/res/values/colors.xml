@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryDark">#004c8c</color>
+
+    <color name="textcolor">#121212</color>
+    <color name="purple">#643843</color>
+    <color name="yellow">#C07F00</color>
+    <color name="green">#A4D0A4</color>
+    <color name="pink">#D14D72</color>
+    <color name="red">#F94A29</color>
+    <color name="grey">#9BA4B5</color>
+    <color name="present">#90EE90</color>
+    <color name="absent">#FF8080</color>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/titleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate Us"
+            android:textColor="#0631B5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0631B5"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/star_one"
+                android:layout_width="54dp"
+                android:layout_height="59dp"
+                android:src="@drawable/baseline_star_outline_24" />
+
+            <ImageView
+                android:id="@+id/star_tow"
+                android:layout_width="54dp"
+                android:layout_height="59dp"
+                android:src="@drawable/baseline_star_outline_24" />
+
+            <ImageView
+                android:id="@+id/star_three"
+                android:layout_width="54dp"
+                android:layout_height="59dp"
+                android:src="@drawable/baseline_star_outline_24" />
+
+            <ImageView
+                android:id="@+id/star_four"
+                android:layout_width="54dp"
+                android:layout_height="59dp"
+                android:src="@drawable/baseline_star_outline_24" />
+
+
+            <ImageView
+                android:id="@+id/star_five"
+                android:layout_width="54dp"
+                android:layout_height="59dp"
+                android:src="@drawable/baseline_star_outline_24" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/saveRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="Save"
+            android:textColor="#0631B5" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+

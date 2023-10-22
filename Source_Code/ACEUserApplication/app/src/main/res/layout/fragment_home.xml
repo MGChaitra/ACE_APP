@@ -1,0 +1,183 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:src="@drawable/college"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The KLE College Of Engineering"
+                android:layout_marginTop="36dp"
+                android:textSize="@dimen/text_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KLE DR.M S Sheshgiri College of Engineering and Technology, Belagavi belongs to KLE Society, a society which has a legacy of 102 years in the field of Education and is one of the largest education societies in the Asia continent.Established in the year 1979, KLE DR.MSSCET is a Self-financing, Non-Autonomous and an ISO 9001:2015 Certified Institution approved by AICTE, New Delhi and Permanently Affiliated to Visvesvaraya Technological University, Belagavi. All the Seven B. E. Courses (Civil, Mechanical, EE, EC, CSE, Chemical and Biomedical Engineering) are accredited by National Board of Accreditation (NBA), New Delhi. The Institution is recognized under Section 2(f) of UGC Act 1956. The Institute conducts a full range of academic activities in the field of Engineering and Management education covering research, teaching, training, consulting and intellectual infrastructure development"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/darkColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="36dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Departments"
+                        android:layout_marginTop="10dp"
+                        android:textSize="@dimen/text_size"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:fontFamily="@string/bold">
+
+                    </TextView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ffff"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Science"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:textSize="@dimen/text_size"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/textColor"
+                                android:fontFamily="@string/light"
+                                android:layout_margin="8dp">
+
+                            </TextView>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey">
+
+                            </View>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey">
+
+                            </View>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="contact details"
+                    android:layout_marginTop="36dp"
+                    android:textSize="@dimen/text_size"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+
+
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/light">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belgaum,Angol RPD"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/light">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/college1">
+
+
+                </ImageView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
